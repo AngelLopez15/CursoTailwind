@@ -20476,6 +20476,22 @@ video {
           animation: bounce 1s infinite;
 }
 
+/* Agregar nuestas propias utilerias */
+
+.rotate-45{
+  transform: rotate(45deg);
+}
+
+/* Agregando las variantes */
+
+.zoom{
+  transform: scale(2);
+}
+
+.hover\:zoom:hover{
+  transform: scale(2);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -40300,6 +40316,10 @@ video {
   .sm\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .sm\:rotate-45{
+    transform: rotate(45deg);
   }
 }
 
@@ -60128,6 +60148,10 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .md\:rotate-45{
+    transform: rotate(45deg);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -79955,6 +79979,10 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .lg\:rotate-45{
+    transform: rotate(45deg);
+  }
 }
 
 @media (min-width: 1280px) {
@@ -99781,5 +99809,9 @@ video {
   .xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .xl\:rotate-45{
+    transform: rotate(45deg);
   }
 }

@@ -2,3 +2,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Agregar nuestas propias utilerias */
+
+@responsive{
+  .rotate-45{
+    transform: rotate(45deg);
+  }
+}
+
+/* Agregando las variantes */
+@variants hover{
+  .zoom{
+    transform: scale(2);
+  }
+}
