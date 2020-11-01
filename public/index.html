@@ -6,8 +6,37 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
-<body>
-  <h1 class="bg-yellow-500 text-white">Hola mundo desde el curso de Tailwind</h1>
-  <input class="border-2 border-blue-500 placeholder-red-800" type="text" placeholder="lorem ipsum">
+<body class="mx-10">
+  <!-- ALTO y ANCHO con unidades REM y porcentaje -->
+  <!-- dimensiones con unidades de REM -->
+  <h1 class="h-32 w-32 bg-yellow-500 text-white">Hola mundo desde el curso de Tailwind</h1>
+  <!-- dimensiones con unidades de porcentaje NOTA: nunca usar 2 h1 en un mismo documento-->
+  <h1 class="h-32 w-1/3 bg-yellow-500 text-white">Hola mundo desde el curso de Tailwind</h1>
+  
+  <!-- Padding y margin -->
+  <h1 class="h-32 w-1/3 pt-10 pl-20 mt-5 mb-5 ml-10 bg-yellow-500 text-white">Hola mundo desde el curso de Tailwind</h1>
+  <!-- Modificando margin y padding con X y Y -->
+  <h1 class="h-32 w-1/3 bg-green-500 my-40 mx-auto text-white">Hola mundo desde el curso de Tailwind</h1>
+
+  <input class="border-2 border-blue-500 py-2 px-10 placeholder-red-800" type="text" placeholder="lorem ipsum">
+
+  <h1 class="font-sans text-5xl">TITULO</h1>
+  <p class="font-serif text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa dolorem excepturi error, saepe, deleniti recusandae incidunt corporis, nihil quasi dolores aliquam optio sit ut! Dolore ea blanditiis distinctio aspernatur quos.</p>
+  <p class="font-mono text-xs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet saepe veniam voluptate dignissimos facilis fugiat dolor sapiente eum illum? Corrupti labore error praesentium beatae laborum corporis ad placeat minus animi.</p>
+  <ul class="text-4xl">
+    <li class="italic">lorem ipsum</li>
+    <li class="font-bold">lorem ipsum</li>
+    <li class="font-extrabold">lorem ipsum</li>
+    <li class="font-light">lorem ipsum</li>
+    <li class="font-medium">lorem ipsum</li>
+  </ul>
+
+  <!-- Espaciamiento entre letras y lineas -->
+  <!-- tracking es el espaciamiento entre letras -->
+  <h1 class="text-5xl font-mono tracking-wider line-through">Un Titulo</h1>
+  <h1 class="text-5xl font-mono tracking-wider underline uppercase">Un Titulo</h1>
+  <p class="my-10 leading-relaxed text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae sequi numquam nihil, eum velit necessitatibus at ducimus ipsum hic earum eos veniam explicabo facilis labore voluptates consectetur asperiores officia laudantium.</p>
+
+
 </body>
 </html>
